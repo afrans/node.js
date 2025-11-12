@@ -1,0 +1,43 @@
+# Dependências
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Builds e distribuições
+dist/
+build/
+out/
+coverage/
+
+# Caches
+.cache/
+.vite/
+.next/
+.nuxt/
+.svelte-kit/
+*.tsbuildinfo
+
+# Ambiente e segredos
+.env
+.env.*        # exceto .env.example
+!.env.example
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Testes
+coverage/
+
+# Lockfiles opcionais (se quiser evitar conflitos)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
